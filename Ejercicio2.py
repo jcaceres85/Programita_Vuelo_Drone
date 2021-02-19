@@ -173,7 +173,7 @@ def resultados():
     textResult.insert(tk.END, f'Distancia de Vuelo = {d_vuelo}m\n\n')
     
     #DURACION DEL VUELO 
-    t= (n_fotos*t_fotos)/60
+    t= (n_fvuelo*t_fotos)/60
     textResult.insert(tk.END, f'Duracion del Vuelo = {t}min\n\n')
 
     
